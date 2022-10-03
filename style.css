@@ -27,6 +27,9 @@ body{
     padding: 0 25px;
     margin: 0 15px;
 }
+.icons-header:hover{
+    cursor: pointer;
+}
 a{
     padding: 20px 30px;
     color: white;
@@ -196,7 +199,7 @@ font-size: 37px;
 }
 .section4{
     height: 865px;
-    padding: 50px 84px;
+    padding: 0 84px;
 }
 .card-section4{
     width: 310px;
