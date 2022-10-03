@@ -1,0 +1,204 @@
+body{
+    width: 1300px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+}
+.header{
+    height: 100px;
+    background-color:rgba(169, 191, 228, 1) ;
+}
+.logo{
+    display: inline-block;
+    margin: 5px 15px;
+}
+.navigation-top{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 100px;
+    line-height: 3em;
+    font-size: 22px;
+    text-align: center;
+}
+.icons-header{
+    display: inline-block;
+    padding: 0 25px;
+    margin: 0 15px;
+}
+a{
+    padding: 20px 30px;
+    color: white;
+    text-decoration-line: none;
+}
+a:hover{
+    text-decoration-line: underline;
+    color: white;
+}
+.img-section1{
+    margin: 50px auto;
+    float: right;
+}
+.section1-content{
+    width: 1100px;
+    padding: 160px 
+}
+.title{
+    font-size: 50px;
+}
+.content{
+    font-size: 30px;
+}
+.button-s1{
+    margin: 50px 25px;
+    background-color: rgba(255, 194, 199, 1);
+    color: white;
+    border-radius:50px;
+    border: 1px solid rgba(255, 194, 199, 1);
+    padding: 10px 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button-s1:hover{
+    border: 1px solid rgba(255, 194, 199, 1);
+    background-color: white;
+    color:  rgba(152, 158, 195, 1);
+}
+
+.bouquets{
+    background: #A9BFE4;
+    color: white;
+    border: 1px solid #A9BFE4;
+    border-radius: 0%;
+    font-size: 20px;
+}
+.bouquets:hover{
+    cursor:auto;
+    background: #A9BFE4;
+    color: white;
+    border: 1px solid #A9BFE4;
+    border-radius: 0%;
+    font-size: 20px;
+}
+.section2{
+    border: none;
+    display: block;
+    height: 750px;
+}
+.card{
+    display: block;
+    margin: 0 auto;
+    padding: 0 85px 0 85px;
+    border: none;
+}
+.button-s2{
+    color: white;
+    background-color: #A9BFE4;
+    border: 1px solid #A9BFE4;
+    font-size: 35px;  
+    padding: 5px 40px;
+    
+}
+.button-s2:hover{
+    cursor: default;
+}
+.button-bouquets,
+.button-natural-flowers,
+.button-own-bouquet{
+    display: inline-block;
+    margin: 0 auto;
+}
+.button-bouquets{
+    position: relative;
+    top: -75px ;
+    right: -100px;
+   
+}
+.button-natural-flowers{
+    position: relative;
+    top: -75px ;
+    right: -240px;
+}
+.button-own-bouquet{
+    position: relative;
+    top: -75px ;
+    right: -350px;
+}
+.about-us-img{
+    float: right;
+    margin: 90px auto 0 auto;
+    width: 40%;
+    height: 300px;
+}
+.abstract_background{ 
+    float: right;
+    margin: 0 0;
+}
+.women{
+    float: right;
+    margin: 0 0;
+    position: relative;
+    top: -440px;
+    left: -122px;
+}
+.icon{
+    display: block;
+    margin: 20px auto;
+}
+.icons{
+    width: 100px;
+    position: relative;
+    top: -700px;
+    right: -395px;
+}
+
+.about-us-text{
+    float: left;
+    margin: 0 0 0 90px;
+    width: 45%;
+    font-size: 30px;
+    font-family: 'Lora';
+}
+.title-about-us{
+    font-size: 50px;
+}
+.vl{
+    display: inline;
+    border-left: 2px solid rgba(255, 194, 199, 1);
+    vertical-align: top;
+}
+.article{
+    display: inline-block;
+   padding-left : 40px;
+   font-weight: 500;
+}
+.section3{
+    width: 1300px;
+    height: 300px;
+    background: rgba(169, 191, 228, 0.3);
+    display: block;
+    margin: 0 auto;
+    padding: 30px 85px;
+    font-style: normal;
+    font-weight: 400;
+}
+.title-section3{
+    color: #989EC3;
+}
+
+.constructor,
+.indor,
+.delivery,
+.for-loved-ones{
+    display: inline-block;
+    width: 24%;
+    padding: 10px 0;
+    font-size: 23px;
+    text-align: center;
+    color: #351F21;
+}
+.card{
+   border: 1px solid rgba(255, 194, 199, 1);
+   height: 341px;
+   width: 210px;
+}
