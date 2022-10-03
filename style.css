@@ -85,11 +85,9 @@ a:hover{
     display: block;
     height: 750px;
 }
-.card{
-    display: block;
-    margin: 0 auto;
-    padding: 0 85px 0 85px;
-    border: none;
+.img-fluid{
+    width: 400px;
+    height: 280px;
 }
 .button-s2{
     color: white;
@@ -97,17 +95,13 @@ a:hover{
     border: 1px solid #A9BFE4;
     font-size: 35px;  
     padding: 5px 40px;
-    
+    transition: all 3ms ease-in-out;
 }
 .button-s2:hover{
     cursor: default;
+font-size: 37px;
 }
-.button-bouquets,
-.button-natural-flowers,
-.button-own-bouquet{
-    display: inline-block;
-    margin: 0 auto;
-}
+
 .button-bouquets{
     position: relative;
     top: -75px ;
@@ -117,12 +111,12 @@ a:hover{
 .button-natural-flowers{
     position: relative;
     top: -75px ;
-    right: -240px;
+    right: -110px;
 }
 .button-own-bouquet{
     position: relative;
     top: -75px ;
-    right: -350px;
+    right: -55px;
 }
 .about-us-img{
     float: right;
@@ -138,12 +132,15 @@ a:hover{
     float: right;
     margin: 0 0;
     position: relative;
-    top: -440px;
+    top: -461px;
     left: -122px;
 }
 .icon{
     display: block;
     margin: 20px auto;
+}
+.icon:hover{
+    cursor: pointer;
 }
 .icons{
     width: 100px;
@@ -196,9 +193,4 @@ a:hover{
     font-size: 23px;
     text-align: center;
     color: #351F21;
-}
-.card{
-   border: 1px solid rgba(255, 194, 199, 1);
-   height: 341px;
-   width: 210px;
 }
