@@ -54,6 +54,7 @@ a:hover{
     font-size: 30px;
 }
 .button-s1{
+    font-size: 23px;
     margin: 50px 25px;
     background-color: rgba(255, 194, 199, 1);
     color: white;
@@ -225,7 +226,7 @@ font-size: 37px;
 }
 .section5{
     background-color:rgba(169, 191, 228, 0.2) ;
-    height: 800px;
+    height: 1100px;
 }
 .flowers-right{
    float: right;
@@ -243,4 +244,8 @@ font-size: 37px;
     display: block;
     margin: 0 auto;
     padding: 300px 150px;
+}
+.form-review{
+    height: 120px;
+    vertical-align: top;
 }
