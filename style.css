@@ -223,3 +223,24 @@ font-size: 37px;
 .button-s4:hover{
     border: 3px solid rgba(152, 158, 195, 1);
 }
+.section5{
+    background-color:rgba(169, 191, 228, 0.2) ;
+    height: 800px;
+}
+.flowers-right{
+   float: right;
+   margin: 0 auto;
+    position: relative;
+    top: -250px;
+}
+.flowers-left{
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    bottom: -150px;
+}
+.print-review{
+    display: block;
+    margin: 0 auto;
+    padding: 300px 150px;
+}
