@@ -199,10 +199,11 @@ font-size: 37px;
     color: #351F21;
 }
 .section4{
-    height: 865px;
+    height: 1350px;
     padding: 0 84px;
 }
 .card-section4{
+    display: inline-block;
     width: 310px;
     height: 500px;
     box-shadow: 0 6px 12px rgba(255, 194, 199, 1);
@@ -223,6 +224,27 @@ font-size: 37px;
 }
 .button-s4:hover{
     border: 3px solid rgba(152, 158, 195, 1);
+}
+.pagination-container{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.pagination{
+    display: inline-block;
+    color: rgba(152, 158, 195, 1);
+    font-size: 50px;
+}
+.pagination:hover{
+    color: rgba(255, 194, 199, 1);
+    text-decoration: none;
+}
+.pagination:active{
+    color: rgba(255, 194, 199, 1);
+    text-decoration: none;
+}
+.active{
+    color: rgba(255, 194, 199, 1);
 }
 .section5{
     background-color:rgba(169, 191, 228, 0.2) ;

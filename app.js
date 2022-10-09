@@ -11,8 +11,8 @@ function displayCardFlovers (flovers) {
     flovers.data.forEach(function(item){
         floversContent = floversContent +
         `
-        <div class="card-of-flowers">
-    <div class="card-section4" >
+        
+    <div class="card-section4 m-4" >
     <img src="${item.image}" width="310px" height="310px">
     <h4 class="name-flowers text-center mt-3">${item.name}
     </h4>
@@ -21,7 +21,6 @@ function displayCardFlovers (flovers) {
     </h4>
     <h4 class="cost text-center m-2">${item.price}</h4>
     <button class="button-s4">В кошик</button>
-</div>
 </div>  
         `;
     })
@@ -30,7 +29,6 @@ function displayCardFlovers (flovers) {
 }
 
 async function getFlovers () {
-    let apiKey = "20221006140459";
     let apiUrl = "https://run.mocky.io/v3/275cc213-7485-4396-b1ba-c1969194d67f";
     axios.get(apiUrl).then((flovers) => {
         console.log('flovers: ', flovers);
