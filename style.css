@@ -199,7 +199,7 @@ font-size: 37px;
     color: #351F21;
 }
 .section4{
-    height: 1350px;
+    height: 1270px;
     padding: 0 84px;
 }
 .card-section4{
@@ -246,6 +246,9 @@ font-size: 37px;
 .active{
     color: rgba(255, 194, 199, 1);
 }
+.arrow{
+font-size: 65px;
+}
 .section5{
     background-color:rgba(169, 191, 228, 0.2) ;
     height: 1100px;
@@ -254,13 +257,26 @@ font-size: 37px;
    float: right;
    margin: 0 auto;
     position: relative;
-    top: -250px;
+    top: -150px;
 }
 .flowers-left{
     float: left;
     margin: 0 auto;
     position: relative;
-    bottom: -150px;
+    bottom: -140px;
+}
+.text-review{
+    font-size: 21px;
+}
+.line-in-review{
+    color: rgba(255, 194, 199, 1);
+    width: 70px;
+    border: 2px solid  rgba(255, 194, 199, 1);
+    
+}
+.name-person{
+    color: rgba(152, 158, 195, 1);
+    font-size: 19px;
 }
 .print-review{
     display: block;
