@@ -30,6 +30,7 @@ function displayCardFlovers (flovers) {
 async function getFlovers () {
     let apiUrl = "https://run.mocky.io/v3/275cc213-7485-4396-b1ba-c1969194d67f";
     axios.get(apiUrl).then((flovers) => {
+        console.log(flovers.data[0])
         displayCardFlovers(flovers)
     });
 }
@@ -62,7 +63,7 @@ function displayReviews (review){
 async function getReview (){
     let apiUrl = "https://jsonplaceholder.typicode.com/comments";
     axios.get(apiUrl).then((review) => {
-        console.log(review.item.body)
+        console.log(review.data[0])
         displayReviews(review)
     })
 };
