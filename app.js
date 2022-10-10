@@ -1,9 +1,9 @@
-const flovers = [{
-    image: '/img/cart1.png',
-    name: 'Ніжна свіжість: ',
-    desctiption: 'троянди та лілії',
-    cost: '445'
-}];
+// const flovers = [{
+//     image: '/img/cart1.png',
+//     name: 'Ніжна свіжість: ',
+//     desctiption: 'троянди та лілії',
+//     cost: '445'
+// }];
 
 function displayCardFlovers (flovers) {
     let contentFlovers = document.querySelector("#content-conteiner");
@@ -36,11 +36,37 @@ async function getFlovers () {
 getFlovers ();
 
 
+function displayReviews (review){
+    let contentReview = document.querySelector("#people-reviews")
+    let content = `<div class="review row d-flex justify-content-start ">`;
+    review.data.forEach(function(item){
+        content = content +
+         `
+        <div class="col-sm-3 me-5">
+<img src="#" alt="Photo person" width="170">
+</div>
+<div class="col-sm-7">
+<p class="text-review">
+   ${item.body}
+</p>
+<hr class="line-in-review">
+<p class="name-person">${item.name}</p>
+</div>
+        `;
+       
+    })
+    content = content + `</div>`;
+    contentReview.innerHTML = content;
+};
 
-
-
-
-
+async function getReview (){
+    let apiUrl = "https://jsonplaceholder.typicode.com/comments";
+    axios.get(apiUrl).then((review) => {
+        console.log(review.item.body)
+        displayReviews(review)
+    })
+};
+getReview()
 
 
 
