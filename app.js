@@ -44,7 +44,7 @@ function displayReviews (review){
         content = content +
          `
         <div class="col-sm-3 me-5">
-<img src="#" alt="Photo person" width="170">
+<img src="/img/person_grey.png" alt="Photo person" width="140">
 </div>
 <div class="col-sm-7">
 <p class="text-review">
