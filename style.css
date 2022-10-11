@@ -1,3 +1,11 @@
+:root{
+    --blue-color: rgba(169, 191, 228, 1) ;
+    --pink-color: rgba(255, 194, 199, 1);
+    --white-color: white;
+    --blue-grey-color:#A9BFE4;
+}
+
+
 body{
     width: 1300px;
     display: block;
@@ -8,7 +16,7 @@ body{
 }
 .header{
     height: 100px;
-    background-color:rgba(169, 191, 228, 1) ;
+    background-color:var(--blue-color) ;
 }
 .logo{
     display: inline-block;
@@ -32,12 +40,12 @@ body{
 }
 a{
     padding: 20px 30px;
-    color: white;
+    color: var(--white-color);
     text-decoration-line: none;
 }
 a:hover{
     text-decoration-line: underline;
-    color: white;
+    color: var(--white-color);
 }
 .img-section1{
     margin: 50px auto;
@@ -56,31 +64,31 @@ a:hover{
 .button-s1{
     font-size: 23px;
     margin: 50px 25px;
-    background-color: rgba(255, 194, 199, 1);
-    color: white;
+    background-color: var(--pink-color);
+    color: var(--white-color);
     border-radius:50px;
-    border: 1px solid rgba(255, 194, 199, 1);
+    border: 1px solid var(--pink-color);
     padding: 10px 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .button-s1:hover{
-    border: 1px solid rgba(255, 194, 199, 1);
-    background-color: white;
-    color:  rgba(152, 158, 195, 1);
+    border: 1px solid var(--pink-color);
+    background-color: var(--white-color);
+    color:  var(--blue-color);
 }
 
 .bouquets{
-    background: #A9BFE4;
-    color: white;
-    border: 1px solid #A9BFE4;
+    background: var(--blue-grey-color);
+    color: var(--white-color);
+    border: 1px solid var(--blue-grey-color);
     border-radius: 0%;
     font-size: 20px;
 }
 .bouquets:hover{
     cursor:auto;
-    background: #A9BFE4;
-    color: white;
-    border: 1px solid #A9BFE4;
+    background: var(--blue-grey-color);
+    color: var(--white-color);
+    border: 1px solid var(--blue-grey-color);
     border-radius: 0%;
     font-size: 20px;
 }
@@ -94,9 +102,9 @@ a:hover{
     height: 280px;
 }
 .button-s2{
-    color: white;
-    background-color: #A9BFE4;
-    border: 1px solid #A9BFE4;
+    color: var(--white-color);
+    background-color:var(--blue-grey-color);
+    border: 1px solid var(--blue-grey-color);
     font-size: 35px;  
     padding: 5px 40px;
     transition: all 3ms ease-in-out;
@@ -165,7 +173,7 @@ font-size: 37px;
 }
 .vl{
     display: inline;
-    border-left: 2px solid rgba(255, 194, 199, 1);
+    border-left: 2px solid var(--pink-color);
     vertical-align: top;
 }
 .article{
@@ -176,7 +184,7 @@ font-size: 37px;
 .section3{
     width: 1300px;
     height: 300px;
-    background: rgba(169, 191, 228, 0.3);
+    background: var(--blue-color);
     display: block;
     margin: 0 auto;
     padding: 30px 85px;
@@ -206,24 +214,24 @@ font-size: 37px;
     display: inline-block;
     width: 310px;
     height: 500px;
-    box-shadow: 0 6px 12px rgba(255, 194, 199, 1);
+    box-shadow: 0 6px 12px var(--pink-color);
 }
 .card-section4:hover{
-    box-shadow: 0 4px 8px rgba(172, 172, 172, 1);
+    box-shadow: 0 4px 8px var(--blue-color);
 }
 .button-s4{
     display: block;
     margin: 0 auto;
-    background-color: white;
-    color:  rgba(152, 158, 195, 1);
+    background-color: var(--white-color);
+    color:  var(--blue-color);
     font-size: 23px;
     border-radius:50px;
-    border: 3px solid rgba(255, 194, 199, 1);
+    border: 3px solid var(--pink-color);
     padding: 5px 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .button-s4:hover{
-    border: 3px solid rgba(152, 158, 195, 1);
+    border: 3px solid var(--blue-color);
 }
 .pagination-container{
     display: block;
@@ -232,19 +240,19 @@ font-size: 37px;
 }
 .pagination{
     display: inline-block;
-    color: rgba(152, 158, 195, 1);
+    color: var(--blue-color);
     font-size: 50px;
 }
 .pagination:hover{
-    color: rgba(255, 194, 199, 1);
+    color: var(--pink-color);
     text-decoration: none;
 }
 .pagination:active{
-    color: rgba(255, 194, 199, 1);
+    color: var(--pink-color);
     text-decoration: none;
 }
 .active{
-    color: rgba(255, 194, 199, 1);
+    color: var(--pink-color);
 }
 .arrow{
 font-size: 65px;
@@ -269,13 +277,13 @@ font-size: 65px;
     font-size: 21px;
 }
 .line-in-review{
-    color: rgba(255, 194, 199, 1);
+    color: var(--pink-color);
     width: 70px;
-    border: 2px solid  rgba(255, 194, 199, 1);
+    border: 2px solid  var(--pink-color);
     
 }
 .name-person{
-    color: rgba(152, 158, 195, 1);
+    color: var(--blue-color);
     font-size: 19px;
 }
 .print-review{
