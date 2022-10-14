@@ -316,10 +316,18 @@ font-size: 65px;
     transform: rotate(300deg);
     position: relative;
     top: -200px;
-    right: -100px;
+    right: -90px;
 }
 footer{
     color: var(--white-color);
     background-color: var(--blue-color);
-    height: 200px;
+    height: 300px;
+}
+.footer-img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.container-footer{
+    color: var(--white-color);
 }
