@@ -40,7 +40,8 @@ getFlovers ();
 function displayReviews (review){
     let contentReview = document.querySelector("#people-reviews")
     let content = `<div class="review row d-flex justify-content-start ">`;
-    review.data.forEach(function(item){
+    review.data.forEach(function(item, index){
+        if (index<2){
         content = content +
          `
         <div class="col-sm-3 me-5">
@@ -54,7 +55,7 @@ function displayReviews (review){
 <p class="name-person">${item.name}</p>
 </div>
         `;
-       
+    }  
     })
     content = content + `</div>`;
     contentReview.innerHTML = content;
@@ -68,6 +69,7 @@ async function getReview (){
     })
 };
 getReview()
+
 
 
 

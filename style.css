@@ -289,7 +289,7 @@ font-size: 65px;
 .print-review{
     display: block;
     margin: 0 auto;
-    padding: 100px 150px;
+    padding: 0 150px;
 }
 .form-review{
     height: 120px;
