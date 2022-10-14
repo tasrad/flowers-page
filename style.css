@@ -310,3 +310,16 @@ font-size: 65px;
     color:rgba(53, 31, 33, 1);
     padding: 5px 25px;
 }
+.flovers-back{
+    float: right;
+    width: 150px;
+    transform: rotate(300deg);
+    position: relative;
+    top: -200px;
+    right: -100px;
+}
+footer{
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    height: 200px;
+}
