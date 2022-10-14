@@ -316,12 +316,12 @@ font-size: 65px;
     transform: rotate(300deg);
     position: relative;
     top: -200px;
-    right: -90px;
+    right: -85px;
 }
 footer{
     color: var(--white-color);
     background-color: var(--blue-color);
-    height: 270px;
+    height: 310px;
 }
 .footer-img {
     display: block;
